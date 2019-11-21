@@ -21,7 +21,7 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class REGISTER extends AppCompatActivity {
 
-    FirebaseAuth firebaseAuth_apa_tengok_tengok;
+    FirebaseAuth aa;
     EditText email_register;
     EditText password_register;
     Button REGISTER;
@@ -32,7 +32,7 @@ public class REGISTER extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        firebaseAuth_apa_tengok_tengok = FirebaseAuth.getInstance();
+        aa = FirebaseAuth.getInstance();
 
         email_register = findViewById(R.id.email);
         password_register = findViewById(R.id.password);
@@ -65,7 +65,7 @@ public class REGISTER extends AppCompatActivity {
                             .show();
                 }
 
-                firebaseAuth_apa_tengok_tengok.createUserWithEmailAndPassword(email, password)
+                aa.createUserWithEmailAndPassword(email, password)
                         .addOnCompleteListener(REGISTER.this, new OnCompleteListener<AuthResult>() {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
@@ -88,9 +88,7 @@ public class REGISTER extends AppCompatActivity {
                         });
             }
         });
-
     }
-
     // Pressed Twice to exit ::
     boolean doubleBackToExitPressedOne = false;
 
@@ -111,6 +109,8 @@ public class REGISTER extends AppCompatActivity {
             }
         }, 2000);
     }
+
+    @Override
     public void onStart(){
         super.onStart();
     }
