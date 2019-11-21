@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "698269826702",
+    "firebase_url": "https://bloodsugarco-c94c1.firebaseio.com",
+    "project_id": "bloodsugarco-c94c1",
+    "storage_bucket": "bloodsugarco-c94c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698269826702:android:349743766b47b35819d3df",
+        "android_client_info": {
+          "package_name": "com.johnmelodyme.BSC"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "698269826702-u1ltdntrtcvl08vnjgivmn2ebshj5qhs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.johnmelodyme.BSC",
+            "certificate_hash": "d8fbb0da17ff5ecb20b1a97058089b83e80bc51b"
+          }
+        },
+        {
+          "client_id": "698269826702-gli98nt1k9ia8ddk8k2blf423unqag18.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyKqt-QnlX4DZ2hhV6UjjJnjQfsBLLngw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "698269826702-gli98nt1k9ia8ddk8k2blf423unqag18.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
